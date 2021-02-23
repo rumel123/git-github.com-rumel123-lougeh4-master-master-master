@@ -97,7 +97,7 @@ const Query = ({ connections, models }) => {
             const data = [];
             if (res) {
                 for (let i = 0; i < res.length; i++) {
-                    const array = res[i];
+                    const array = res[i]; 
                     data.push({
                         product_barcode: array.dataValues.product_barcode,
                         product_name: array.dataValues.product_name,
